@@ -1,0 +1,6 @@
+Zoiper / Groundwire / Linphone / MicroSIP
+Account → SIP server = 162.35.160.160:55060
+Username / Password from sip24.cc
+Caller ID field = any number you want to spoof on sip24 dashboard
+Outbound proxy / auth username as required
+Enable “Send caller ID” / custom From header
