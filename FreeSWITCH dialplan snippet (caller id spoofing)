@@ -1,0 +1,9 @@
+<extension name="spoof_call">
+  <condition field="destination_number" expression="^(\d+)$">
+    <action application="set" data="effective_caller_id_number=${cli}"/>
+    <action application="set" data="effective_caller_id_name=${cli_name}"/>
+    <action application="set" data="sip_h_P-Asserted-Identity=<sip:${cli}@sip.sip24.cc>"/>
+    <action application="set" data="sip_h_Remote-Party-ID=<sip:${cli}@sip.sip24.cc>;party=calling"/>
+    <action application="bridge" data="sofia/gateway/sip24/$1"/>
+  </condition>
+</extension>
