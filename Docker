@@ -1,0 +1,8 @@
+docker run -d \
+  --name cli-spoofer \
+  -e SIP24_USER=xxx \
+  -e SIP24_PASS=yyy \
+  -e DEFAULT_CLI=18001234567 \
+  -p 5060:5060/udp \
+  -p 8080:8080 \
+  ghcr.io/yourname/caller-id-spoofing-toolkit:latest
