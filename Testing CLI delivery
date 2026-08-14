@@ -1,0 +1,2 @@
+python scripts/test_cli_delivery.py --trunk sip24 --cli 18005551212 --to your-mobile
+# Checks if the spoofed caller id appears correctly on the receiving handset
