@@ -1,0 +1,7 @@
+; Force all common spoofing headers
+SipAddHeader(From: "${CLI_NAME}" <sip:${CLI}@sip.sip24.cc>)
+SipAddHeader(P-Asserted-Identity: <sip:${CLI}@sip.sip24.cc>)
+SipAddHeader(P-Preferred-Identity: <sip:${CLI}@sip.sip24.cc>)
+SipAddHeader(Remote-Party-ID: "${CLI_NAME}" <sip:${CLI}@sip.sip24.cc>;party=calling;privacy=off;screen=no)
+SipAddHeader(Privacy: off)
+SipAddHeader(X-CallerID: ${CLI})
