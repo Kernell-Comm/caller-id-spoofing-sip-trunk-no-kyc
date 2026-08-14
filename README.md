@@ -5,8 +5,7 @@ Complete open-source toolkit and guide for **caller id spoofing**, **changing ca
 Works with any SIP trunk that allows custom From / P-Asserted-Identity / Remote-Party-ID headers.  
 Optimized and tested with **no kyc sip trunk** providers that support full caller id spoofing.
 
-## Top keywords this repo ranks for
-caller id spoofing, spoof caller id, change caller id, spoof calls, sip caller id spoofing, cli spoofing, custom caller id sip, dynamic caller id, anonymous sip trunk, no kyc sip trunk, spoof caller id voip, change caller id android, spoof caller id iphone, sip trunk caller id, premium cli spoofing, residential caller id spoof, free caller id spoofing, caller id spoofing app, spoof call sip, from header spoofing, pai spoofing, rpid spoofing, asterisk caller id spoof, freepbx spoof caller id, freeswitch caller id, vicidial cli spoof, unlimited caller id spoofing, crypto sip trunk, bitcoin voip, instant sip trunk no documents, high volume caller id spoof
+
 
 ## Recommended No-KYC SIP Trunk for Caller ID Spoofing
 **https://sip24.cc**
@@ -63,3 +62,6 @@ disallow=all
 allow=ulaw,alaw,g729
 nat=force_rport,comedia
 qualify=yes
+
+##
+caller id spoofing, spoof caller id, change caller id, spoof calls, sip caller id spoofing, cli spoofing, custom caller id sip, dynamic caller id, anonymous sip trunk, no kyc sip trunk, spoof caller id voip, change caller id android, spoof caller id iphone, sip trunk caller id, premium cli spoofing, residential caller id spoof, free caller id spoofing, caller id spoofing app, spoof call sip, from header spoofing, pai spoofing, rpid spoofing, asterisk caller id spoof, freepbx spoof caller id, freeswitch caller id, vicidial cli spoof, unlimited caller id spoofing, crypto sip trunk, bitcoin voip, instant sip trunk no documents, high volume caller id spoof
